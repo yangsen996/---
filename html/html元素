@@ -15,7 +15,6 @@ html空元素：<br />关闭空元素
   style属性
   id属性   <h1 id="header">标题id</h1>
   title属性 提示文本，鼠标放在链接上显示文字
-
 水平线
   <hr /> 空元素
   文本加粗标签      <strong> <b>
@@ -135,4 +134,4 @@ html表单
     enctype属性   将表发送到服务器之前如何对齐编码（只有method=“post”才会使用属性
                 application/x-www-from-urlencoded:默认将空格转换未“+”特殊字符转换未ASCLLHEX值）
                 multipart/from-data:不对字符进行编码，当使用有文件上传控件的时候，该值是必须的
-                
+未完成
