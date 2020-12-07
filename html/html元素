@@ -1,0 +1,138 @@
+标签分类
+      单标签
+      双标签
+html空元素：<br />关闭空元素
+属性
+  href属性  <a href="url">这是一个链接</a>
+  target属性{
+            _blank : 在新窗口中打开被链接的文档
+            _self : 默认，在相同的框架中打开被链接的文档
+            _parent : 在父框架集中打开被链接文档
+            _top :在整个窗口中打开被链接文档
+            farmename:在指定的框架中打开被链接文档
+  }
+  class属性 定义一个或者多个类名 <p class="intro">段落定义了类名</p>也可以定义多个类名
+  style属性
+  id属性   <h1 id="header">标题id</h1>
+  title属性 提示文本，鼠标放在链接上显示文字
+
+水平线
+  <hr /> 空元素
+  文本加粗标签      <strong> <b>
+  文本倾斜标签      <em> <i>
+  删除线标签        <del> <s>
+  下划线标签        <ins> <u>
+  定义下标字         <sub>
+  上标子           <sup>
+  小号子           <small>
+<head>元素
+  可以插入脚本scripts  样本文件（css）各种meta
+  可以添加的标签为：<title> 文档标题
+  <style>  样式文件
+  <meta> html文档中的元数据
+  <link> 文档和外部资源之间的关系
+  <scripts> 客户端的脚本文件
+  <moscript> 在脚本中未被执行是的替代内容（文本）
+  <base> 页面链接标签的默认链接地址
+<meta>元素
+  网页的描述关键词，文件的最后修改，作者，其它元数据
+  搜索引擎定位关键词：<meta name="keywords" content="html,css,xml,xhtml,javascript">
+  网页定义描述内容：<meta name="description" content="">
+  网页作者：<meta name="author" content="">
+  每30秒刷新页面：<meta http-equiv="refresh" content="30">
+<link>元素
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <lik rel="shortcut icon" href="图片url">
+内联样式
+  font-family(字体)
+  color(颜色)
+  font-size(字体大小)
+内联元素
+    <span>,<a>,<img>,<b>,<td><strong>
+<img>标签
+    <img src="url">
+    alt 属性  图像定义一串预备的可替代的文本
+    width,height属性
+html无序列表
+    项目列表
+    <ul>和<li>使用
+有序列表
+    <ol>
+自定义列表
+    <dl>自定义列表
+    <dt>自定义列表组
+    <dd>自定义列表描述
+html快级元素
+    <div>,<h1>,<p>,<ul>,<table>等元素
+<div>元素
+    可用于对大的内容块设置样式属性
+    实例<div style="color:#FF0000">
+    <h1>这是一个在 div 元素中的标题。</h1>
+    <p>这是一个在 div 元素中的文本。</p>
+    </div>
+<span>元素
+    为部分文本设置样式属性
+    <p>我的哥哥有 <span style="color:0000FF;font-weight:bold">蓝色</span> 的球鞋，我的姐姐有 <span style="color:FF0000;font-weight:bold">红色</span> 的球鞋。</p>
+html框架
+    <ifarme>元素
+        规定一个内联框架（相当于在html文档中嵌入另外一个文档）
+        <iframe src="https://www.w3cschool.cn"></iframe>
+        <iframe src="/statics/demosourse/demo_iframe.htm" width="300" height="300"></iframe>
+        frameborder属性  定义是否显示边框 1：开启（默认）0：移除
+html脚本
+    <script>定义了客户端脚本
+    <moscript>定义不支持脚本浏览器输出的文本
+    <script>标签
+        <script>
+        document.write("Hello W3Cschool!");
+        </script>
+        向浏览器输出“Hello W3Cschool!”
+    <moscript>标签
+        <noscript>抱歉，您的浏览器不支持 JavaScript!</noscript>
+html字符实体
+    显示结果	描述	实体名称	实体编号
+    空格            空格	&nbsp;	     &#160;
+    <	       小于号	&lt;	    &#60;
+    >	      大于号	&gt;	   &#62;
+    &	      和号	&amp;    	&#38;
+    "	      引号	&quot;   	&#34;
+    '	      撇号 	&apos; (IE不支持)	&#39;
+    ￠	      分	     &cent;   	&#162;
+    £	      镑	      &pound;    &#163;
+    ¥	  人民币/日元	&yen;	  &#165;
+    €	      欧元	&euro;	     &#8364;
+    §	      小节	&sect;	      &#167;
+    ©	      版权	&copy;	      &#169;
+    ®	      注册商标	&reg;	 &#174;
+    ™	      商标	&trade;  	&#8482;
+    ×	      乘号	&times;	     &#215;
+    ÷	      除号	&divide;	&#247;
+html表格
+    <table>标签定义
+                <tr>表格中的一行
+                <th>表格中的表头
+                <td>表格中的单元格
+html表格标签
+    常用标签：<table>,<tr>,<th>,<td>
+    <caption>表格标题
+    <colgroup>表格列的组
+    <col>用于表格列的属性
+    <thead>表格的页眉
+    <tbody>表格的主体
+    <tfoot>表格的页脚
+html表格边框属性
+        border属性  1 ： 表格的边框为1像素宽
+html合并单元格
+    表格的跨行跨列
+    rowspan属性 定义单元格应该横跨的行数，rowspan=2 横跨两行
+    colspan属性 定义单元格应该横跨的列数，colspan=2 横跨两列
+html表单
+    <from>，常用属性：action,method,enctype
+    action属性    <from action="url"> 绝对和相对的url值
+    method属性    如何发送表单数据（表单会被发送到在action属性中规定的页面中）
+            get(默认),post
+            <from method="get|post">
+    enctype属性   将表发送到服务器之前如何对齐编码（只有method=“post”才会使用属性
+                application/x-www-from-urlencoded:默认将空格转换未“+”特殊字符转换未ASCLLHEX值）
+                multipart/from-data:不对字符进行编码，当使用有文件上传控件的时候，该值是必须的
+                
