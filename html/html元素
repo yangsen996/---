@@ -134,4 +134,31 @@ html表单
     enctype属性   将表发送到服务器之前如何对齐编码（只有method=“post”才会使用属性
                 application/x-www-from-urlencoded:默认将空格转换未“+”特殊字符转换未ASCLLHEX值）
                 multipart/from-data:不对字符进行编码，当使用有文件上传控件的时候，该值是必须的
-未完成
+html表单输入元素
+    <input>
+    文本框<text>,<password>密码字段<radio>单选字段<checkbox>复选框<submit>提交
+    <from>
+        username: <input type="text" name="username">
+    </from>
+html下拉列表
+    <select> 下拉选项列表
+        <option>列表中的可用选项
+html文本域
+    <textarea>文本域。（一个多行的输入控件）
+    <textarea rows="10" cols="40">cols宽度rows高度
+<label>标签 输入标题
+    <label for="male">Male</label>
+<button>标签 按钮
+    属性：
+        submit,button,reset(重置按钮)
+<fieldset><legend>标签
+    定义一组相关的表单元素，并使用外框包含起来
+    <legend>定义了<fieldset>元素的标题
+H5内容列表
+    内联
+    流
+    标题
+    交互
+    原数据
+    短语
+    区段
