@@ -162,3 +162,41 @@ H5内容列表
     原数据
     短语
     区段
+<header>标签
+    元素适合在<body>标签内部使用
+<footer>标签</footer>定义文档或者文档的一部分区域的页脚
+<nav>标签</nav> 定义导航链接的部分
+<article>标签定义独立的内容</article>
+<section>定义文档的某个区域，比如章节，头部，底部，或者文档的其它区域</section>
+<aside>标签定义<article>标签外的内容</aside>与附近的内容相关
+H5元素
+    <audio>标签定义声音，比如音乐或者其它音频流
+        src属性
+        controls属性
+        autoplay属性：音频在就绪后马上播放
+        loop:音频结束时重新播放
+        支持三种文件格式：mp3，WAV,OGG
+        <audio controls>control 属性，提供添加播放暂停和音量控件
+            <source src=".mp3" type="video/mpeg">
+                放置文本，不支持标签时会显示在浏览器中
+        </audio>
+    <video>定义视频
+        支持mp4，webm，ogg
+        <video width="" height"" controls>
+        <source src="" type="">
+        </video>
+    <progress>标签定义了运行中任务的进度
+        <max>规定需要完成的值
+        <value>规定进程中的当前值为30
+    <from>表单
+        新特性
+            placeholder 属性提供一种提示，描述输入域所期待的值
+            autofocus 属性 规定在页面加载时，域自动的获得焦点
+            required 属性，规定必须在提交之前填写输入域（不能为空）
+            autocomplete属性 规定form或input 域应该拥有自动完成功能
+            当用户在自动完成域中开始输入时，浏览器应该在该域中显示填写的选项
+    创建搜索框
+        <input type="search" name="searchitem">
+    搜索选项列表
+        <datalist> 元素桂东输入域的选项列表
+    创建更多输入类型
