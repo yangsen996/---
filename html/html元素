@@ -200,3 +200,50 @@ H5元素
     搜索选项列表
         <datalist> 元素桂东输入域的选项列表
     创建更多输入类型
+H5  SVG
+    <svg width="1000" height="1000">
+        <circle cx="100" cy="50" r="40" fill="blue" />
+    </svg>
+    其它形状元素
+        svg矩形：<rect>  可以创建矩形，以及矩形的变种
+        svg椭圆：<ellipse> 创建一个椭圆
+        svg动画：<animate>
+        <svg width="1000" height="250">
+        <rect width="150" height="150" fill="orange">
+         <animate attributeName="x" from="0" to="300"
+         dur="3s" fill="freeze" repeatCount="2" />
+         </rect>
+         </svg>
+         attributeName:指定哪个属性需要产生动画效果
+         from ： 指定属性的起始值
+         to：指定属性的结束值
+         dur ： 指定动画运行的时间
+         fill="freeze|remove"指定动画播放完毕后是停留在播放的终点还是回到起始位置
+         repeatCount : 指定动画的重复播放次数
+         要无限重复动画：请使用值：indefinite作为repeatCount属性
+    svg路径
+        <path>定义一个路径
+    <canvas>用于图形的绘制，通过脚本（javascript）来完成
+        getcontext()方法 返回一个对象
+    使用
+        moveTo(x,y)定义线条开始坐标
+        lineTo(x,y)线条结束坐标
+        arc(x,y,r,start,stop)
+    canvas
+        scale()方法 缩放当前绘图至更大或者更小
+WEB存储
+    localStorage    储存的数据没有时间限制
+    sessionStorage  针对一个sessiion进行数据存储，当前用户关闭浏览器窗口后，数据会被删除
+web存储使用的API
+    保存数据：localStorage.setItem(key,value)
+    读书数据: lcoalStorage.getItem(key)
+    删除单个数据：localStorage.removeItem(key)
+    清楚所有数据：localStorage.clear()
+    得到某个索引的key：lcoalStorage.key(index)
+地理定位
+    Geolocation API:
+        可能侵犯用户的隐私，除非用户同意
+        getCurrentPosition()方法
+HTML拖放
+    Drag
+    Drop
